@@ -1,0 +1,101 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(147, 136, 136);
+  font-family: 'Roboto', sans-serif;
+}
+.application{
+  margin-top: 50px;
+  text-align: center;
+}
+.search-box{
+  margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+.input-field{
+  padding: 5px;
+}
+.search-btn{
+  padding: 2px;
+  background-color: rgb(71, 120, 219);
+  color: white;
+  margin-left: 16px;
+}
+.card-detail{
+
+ width: 500px;
+ margin-top: 100px;
+ margin-left: 400px;
+ border-radius: 10px;
+ height: 50vh;
+ 
+ 
+}
+.weather-img{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(155, 208, 244);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.first:hover{
+  transform: scale(3);
+}
+.temp-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.temp1{
+  float: left;
+  font-size: 30px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.weather-type{
+padding: 10px;
+}
+.location{
+padding: 10px;
+}
+.time-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(231, 231, 153);
+  height: 145px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.sunset{
+  padding: 10px;
+  margin-top: 10px;
+}
+#time{
+  margin-top: 50px;
+}
+.second{
+  padding: 5px;
+}
